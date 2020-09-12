@@ -1,12 +1,12 @@
 {
-  "name": "github-preview",
-  "description": "Github preview theme for Inkdrop Markdown Editor",
-  "version": "1.5.0",
+  "name": "horizon-dark-preview",
+  "description": "Preview theme for the Inkdrop note-taking app. Based on Horizon for Visual Studio Code.",
+  "version": "1.0.0",
   "theme": "preview",
   "scripts": {
     "build": "lessc styles/less/github-markdown.less ./styles/github-markdown.css && lessc styles/less/github-markdown-dark.less ./styles/github-markdown-dark.css"
   },
-  "repository": "https://github.com/inkdropapp/inkdrop-github-preview-theme",
+  "repository": "https://github.com/cdevoogd/inkdrop-horizon-preview-theme",
   "license": "MIT",
   "styleSheets": [
     "github-markdown.css",

@@ -1,12 +1,21 @@
-# Github Preview Theme
+# Horizon Preview Theme
 
-A default Markdown preview theme for [Inkdrop](https://www.inkdrop.info/).
+This Horizon preview theme is a port of the original Horizon theme by [Jolaleye](https://github.com/jolaleye) for the [Inkdrop note-taking app](https://www.inkdrop.app/). This particular module modifies the theme for the app's markdown preview panel. For other modules of the theme, check the list below.
 
- * `styles/github-markdown.less` - Styles for light UI theme
- * `styles/github-markdown-dark.less` - Styles for dark UI theme
+## All Horizon Modules
+- [Horizon: UI Theme](https://github.com/cdevoogd/inkdrop-horizon-ui-theme)
+- [Horizon: Syntax Theme](https://github.com/cdevoogd/inkdrop-horizon-syntax-theme)
+- [Horizon: Preview Theme](https://github.com/cdevoogd/inkdrop-horizon-preview-theme)
 
-## Theming code blocks
+## Installation
 
-Highlighting code blocks is built with [CodeMirror](https://codemirror.net/demo/theme.html), and CSS selectors for styling code blocks are compatible with it.
-CSS selectors always start with `cm-`.
-You can easily import styles from [CodeMirror's theme](https://github.com/codemirror/CodeMirror/tree/master/theme).
+This section will be filled out once the theme is completed.
+
+## Credits
+
+- [Inkdrop](https://www.inkdrop.app/) for the Inkdrop app.
+- [Jolaleye](https://github.com/jolaleye) for the original [Horizon theme](https://horizontheme.netlify.app/).
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details
