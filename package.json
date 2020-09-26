@@ -4,13 +4,12 @@
   "version": "1.0.0",
   "theme": "preview",
   "scripts": {
-    "build": "lessc styles/less/github-markdown.less ./styles/github-markdown.css && lessc styles/less/github-markdown-dark.less ./styles/github-markdown-dark.css"
+    "build": "lessc styles/less/horizon-dark.less ./styles/horizon-dark.css"
   },
   "repository": "https://github.com/cdevoogd/inkdrop-horizon-preview-theme",
   "license": "MIT",
   "styleSheets": [
-    "github-markdown.css",
-    "github-markdown-dark.css"
+    "horizon-dark.css"
   ],
   "engines": {
     "inkdrop": "^5.x"

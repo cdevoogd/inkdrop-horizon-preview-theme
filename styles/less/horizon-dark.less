@@ -1,0 +1,118 @@
+@import "./colors";
+
+body[class*="dark-ui"] {
+  .mde-preview {
+    color: fade(@horizonText, 90%);
+  }
+
+  .mde-preview {
+    background-color: @horizonBackground;
+    
+    a {
+      background-color: transparent;
+    }
+
+    img {
+      border: 0;
+    }
+
+    input {
+      color: inherit;
+    }
+
+    a {
+      color: @markdownLink;
+    }
+
+    strong, em {
+      color: @horizonText;
+    }
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+      color: fade(@horizonText, 87.5%);
+    }
+
+    h6 {
+      color: fade(@horizonText, 62.5%);
+    }
+
+    h1,
+    h2 {
+      border-bottom-color: fade(@horizonText, 40%);
+    }
+
+    hr {
+      background-color: fade(@horizonText, 30%);
+    }
+
+    blockquote {
+      color: fade(@horizonText, 40%);
+      border-left: 4px solid fade(@horizonText, 10%);
+    }
+
+    table th {
+      background-color: fade(@horizonText, 10%);
+    }
+
+    table th,
+    table td {
+      border: 1px solid fade(@horizonText, 25%);
+    }
+
+    table tr {
+      background-color: transparent;
+      border-top: 1px solid fade(@horizonText, 25%);
+    }
+
+    table tr:nth-child(2n) {
+      background-color: fade(@horizonText, 5%);
+    }
+
+    img {
+      background-color: transparent;
+    }
+
+    .highlight pre,
+    pre {
+      background-color: rgba(0, 0, 0, 0.1);
+    }
+
+    .cm-header {color: @cmHeader;}
+    .cm-quote {color: @cmQuote; font-style: italic;}
+    .cm-negative {color: @cmNegative;}
+    .cm-positive {color: @cmPositive;}
+    .cm-header, .cm-strong {font-weight: bold;}
+    .cm-em {font-style: italic;}
+    .cm-link {text-decoration: underline;}
+    .cm-strikethrough {text-decoration: line-through;}
+
+    .cm-keyword {color: @cmKeyword; font-weight: normal;}
+    .cm-atom {color: @cmAtom;}
+    .cm-number {color: @cmNumber;}
+    .cm-def {color: @cmDef;}
+    .cm-property {color: @cmProperty;}
+    .cm-operator {color: @cmOperator;}
+    .cm-variable,
+    .cm-punctuation {color: @cmVariable}
+    .cm-variable-2 {color: @cmVariable2;}
+    .cm-variable-3, .cm-type {color: rgba(255, 255, 255, 0.8);}
+    .cm-comment {color: @cmComment; font-style: italic;}
+    .cm-string {color: @cmString;}
+    .cm-string-2 {color: @cmString2;}
+    .cm-meta {color: @cmMeta;}
+    .cm-qualifier {color: @cmQualifier;}
+    .cm-builtin {color: @cmBuiltin;}
+    .cm-bracket {color: @cmBracket;}
+    .cm-tag {color: @cmTag;}
+    .cm-attribute {color: @cmAttribute;}
+    .cm-hr {color: @cmHR;}
+    .cm-link {color: @cmLink;}
+
+    .cm-error {color: @cmError;}
+  }
+}
