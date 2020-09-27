@@ -2,6 +2,8 @@
 
 This Horizon preview theme is a port of the original Horizon theme by [Jolaleye](https://github.com/jolaleye) for the [Inkdrop note-taking app](https://www.inkdrop.app/). This particular module modifies the theme for the app's markdown preview panel. For other modules of the theme, check the list below.
 
+![Screenshot showcasing the Horizon Preview theme](doc/preview-screenshot.png)
+
 ## All Horizon Modules
 - [Horizon: UI Theme](https://github.com/cdevoogd/inkdrop-horizon-ui-theme)
 - [Horizon: Syntax Theme](https://github.com/cdevoogd/inkdrop-horizon-syntax-theme)
