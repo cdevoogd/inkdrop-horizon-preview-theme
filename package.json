@@ -5,10 +5,10 @@
   "repository": "https://github.com/cdevoogd/inkdrop-horizon-preview-theme",
   "license": "MIT",
   "theme": "preview",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "scripts": {
     "build": "lessc styles/less/horizon-dark.less ./styles/horizon-dark.css"
-  }, 
+  },
   "styleSheets": [
     "horizon-dark.css"
   ],
