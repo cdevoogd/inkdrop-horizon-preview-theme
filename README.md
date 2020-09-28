@@ -11,7 +11,16 @@ This Horizon preview theme is a port of the original Horizon theme by [Jolaleye]
 
 ## Installation
 
-This section will be filled out once the theme is completed.
+Inside your command line run the following:
+```
+ipm install horizon-dark-preview
+```
+
+To install the additional horizon modules:
+```
+ipm install horizon-dark-syntax
+ipm install horizon-dark-ui
+```
 
 ## Credits
 

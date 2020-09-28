@@ -1,13 +1,14 @@
 {
   "name": "horizon-dark-preview",
   "description": "Preview theme for the Inkdrop note-taking app. Based on Horizon for Visual Studio Code.",
-  "version": "1.0.0",
-  "theme": "preview",
-  "scripts": {
-    "build": "lessc styles/less/horizon-dark.less ./styles/horizon-dark.css"
-  },
+  "author": "cdevoogd",
   "repository": "https://github.com/cdevoogd/inkdrop-horizon-preview-theme",
   "license": "MIT",
+  "theme": "preview",
+  "version": "0.0.0",
+  "scripts": {
+    "build": "lessc styles/less/horizon-dark.less ./styles/horizon-dark.css"
+  }, 
   "styleSheets": [
     "horizon-dark.css"
   ],
@@ -16,5 +17,8 @@
   },
   "devDependencies": {
     "less": "^3.11.3"
-  }
+  },
+  "keywords": [
+    "inkdrop"
+  ]
 }
