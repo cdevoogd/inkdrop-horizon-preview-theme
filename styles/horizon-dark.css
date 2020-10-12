@@ -6,15 +6,13 @@ body[class*="dark-ui"] .mde-preview {
 }
 body[class*="dark-ui"] .mde-preview a {
   background-color: transparent;
+  color: #E95678;
 }
 body[class*="dark-ui"] .mde-preview img {
   border: 0;
 }
 body[class*="dark-ui"] .mde-preview input {
   color: inherit;
-}
-body[class*="dark-ui"] .mde-preview a {
-  color: #E95678;
 }
 body[class*="dark-ui"] .mde-preview strong,
 body[class*="dark-ui"] .mde-preview em {
@@ -28,11 +26,25 @@ body[class*="dark-ui"] .mde-preview h5,
 body[class*="dark-ui"] .mde-preview h6 {
   color: rgba(213, 216, 218, 0.875);
 }
-body[class*="dark-ui"] .mde-preview h6 {
-  color: rgba(213, 216, 218, 0.625);
-}
 body[class*="dark-ui"] .mde-preview h1 {
+  font-size: 2.25em;
   border-bottom: 1px solid rgba(213, 216, 218, 0.4);
+}
+body[class*="dark-ui"] .mde-preview h2 {
+  font-size: 1.75em;
+}
+body[class*="dark-ui"] .mde-preview h3 {
+  font-size: 1.5em;
+}
+body[class*="dark-ui"] .mde-preview h4 {
+  font-size: 1.25em;
+}
+body[class*="dark-ui"] .mde-preview h5 {
+  font-size: 1em;
+}
+body[class*="dark-ui"] .mde-preview h6 {
+  font-size: 1em;
+  color: rgba(213, 216, 218, 0.625);
 }
 body[class*="dark-ui"] .mde-preview hr {
   background-color: rgba(213, 216, 218, 0.3);
