@@ -31,9 +31,8 @@ body[class*="dark-ui"] .mde-preview h6 {
 body[class*="dark-ui"] .mde-preview h6 {
   color: rgba(213, 216, 218, 0.625);
 }
-body[class*="dark-ui"] .mde-preview h1,
-body[class*="dark-ui"] .mde-preview h2 {
-  border-bottom-color: rgba(213, 216, 218, 0.4);
+body[class*="dark-ui"] .mde-preview h1 {
+  border-bottom: 1px solid rgba(213, 216, 218, 0.4);
 }
 body[class*="dark-ui"] .mde-preview hr {
   background-color: rgba(213, 216, 218, 0.3);
