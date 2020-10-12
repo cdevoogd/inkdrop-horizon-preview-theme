@@ -50,6 +50,7 @@ body[class*="dark-ui"] .mde-preview hr {
   background-color: rgba(213, 216, 218, 0.3);
 }
 body[class*="dark-ui"] .mde-preview blockquote {
+  padding: 0 15px;
   color: rgba(213, 216, 218, 0.4);
   border-left: 4px solid rgba(213, 216, 218, 0.1);
 }
