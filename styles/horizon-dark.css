@@ -70,9 +70,52 @@ body[class*="dark-ui"] .mde-preview table tr:nth-child(2n) {
 body[class*="dark-ui"] .mde-preview img {
   background-color: transparent;
 }
-body[class*="dark-ui"] .mde-preview .highlight pre,
+body[class*="dark-ui"] .mde-preview code {
+  padding: 0;
+  padding-top: 0.2em;
+  padding-bottom: 0.2em;
+  margin: 0;
+  font-size: 85%;
+  background-color: rgba(22, 22, 28, 0.7);
+  border-radius: 3px;
+}
+body[class*="dark-ui"] .mde-preview code:before,
+body[class*="dark-ui"] .mde-preview code:after {
+  letter-spacing: -0.2em;
+  content: "\00a0";
+}
+body[class*="dark-ui"] .mde-preview pre > code {
+  padding: 0;
+  margin: 0;
+  font-size: 100%;
+  word-break: normal;
+  white-space: pre;
+  background: transparent;
+  border: 0;
+}
 body[class*="dark-ui"] .mde-preview pre {
-  background-color: rgba(0, 0, 0, 0.1);
+  padding: 16px;
+  overflow: auto;
+  word-wrap: normal;
+  font-size: 85%;
+  line-height: 1.45;
+  background-color: rgba(22, 22, 28, 0.7);
+  border-radius: 3px;
+}
+body[class*="dark-ui"] .mde-preview pre code {
+  display: inline;
+  max-width: initial;
+  padding: 0;
+  margin: 0;
+  overflow: initial;
+  line-height: inherit;
+  word-wrap: normal;
+  background-color: transparent;
+  border: 0;
+}
+body[class*="dark-ui"] .mde-preview pre code:before,
+body[class*="dark-ui"] .mde-preview pre code:after {
+  content: normal;
 }
 body[class*="dark-ui"] .mde-preview .cm-header {
   color: #E95678;
