@@ -1,91 +1,104 @@
-body[class*="dark-ui"] .mde-preview {
+.mde-preview {
   color: rgba(213, 216, 218, 0.9);
+  background-color: #1c1e26;
+  line-height: 1.5;
 }
-body[class*="dark-ui"] .mde-preview {
-  background-color: #1C1E26;
+.mde-preview:before {
+  display: table;
+  content: "";
 }
-body[class*="dark-ui"] .mde-preview a {
-  background-color: transparent;
-  color: #E95678;
+.mde-preview:after {
+  display: table;
+  clear: both;
+  content: "";
 }
-body[class*="dark-ui"] .mde-preview img {
-  border: 0;
-}
-body[class*="dark-ui"] .mde-preview input {
-  color: inherit;
-}
-body[class*="dark-ui"] .mde-preview strong,
-body[class*="dark-ui"] .mde-preview em {
-  color: #D5D8DA;
-}
-body[class*="dark-ui"] .mde-preview h1,
-body[class*="dark-ui"] .mde-preview h2,
-body[class*="dark-ui"] .mde-preview h3,
-body[class*="dark-ui"] .mde-preview h4,
-body[class*="dark-ui"] .mde-preview h5,
-body[class*="dark-ui"] .mde-preview h6 {
+.mde-preview h1,
+.mde-preview h2,
+.mde-preview h3,
+.mde-preview h4,
+.mde-preview h5,
+.mde-preview h6 {
   color: rgba(213, 216, 218, 0.875);
 }
-body[class*="dark-ui"] .mde-preview h1 {
+.mde-preview h1 {
   font-size: 2.25em;
+  padding-bottom: 0.3em;
+  line-height: 1.2;
   border-bottom: 1px solid rgba(213, 216, 218, 0.4);
 }
-body[class*="dark-ui"] .mde-preview h2 {
+.mde-preview h2 {
   font-size: 1.75em;
+  padding-bottom: 0.3em;
+  line-height: 1.225;
 }
-body[class*="dark-ui"] .mde-preview h3 {
+.mde-preview h3 {
   font-size: 1.5em;
+  line-height: 1.43;
 }
-body[class*="dark-ui"] .mde-preview h4 {
+.mde-preview h4 {
   font-size: 1.25em;
 }
-body[class*="dark-ui"] .mde-preview h5 {
+.mde-preview h5 {
   font-size: 1em;
 }
-body[class*="dark-ui"] .mde-preview h6 {
-  font-size: 1em;
+.mde-preview h6 {
+  font-size: 0.9em;
   color: rgba(213, 216, 218, 0.625);
 }
-body[class*="dark-ui"] .mde-preview hr {
+.mde-preview hr {
   background-color: rgba(213, 216, 218, 0.3);
 }
-body[class*="dark-ui"] .mde-preview blockquote {
+.mde-preview a {
+  background-color: transparent;
+  color: #e95678;
+}
+.mde-preview strong,
+.mde-preview em {
+  color: #d5d8da;
+}
+.mde-preview blockquote {
   padding: 0 15px;
   color: rgba(213, 216, 218, 0.4);
   border-left: 4px solid rgba(213, 216, 218, 0.1);
 }
-body[class*="dark-ui"] .mde-preview table th {
-  background-color: rgba(213, 216, 218, 0.1);
+.mde-preview input {
+  color: inherit;
 }
-body[class*="dark-ui"] .mde-preview table th,
-body[class*="dark-ui"] .mde-preview table td {
-  border: 1px solid rgba(213, 216, 218, 0.25);
+.mde-preview img {
+  border: 0;
+  background-color: transparent;
 }
-body[class*="dark-ui"] .mde-preview table tr {
+.mde-preview table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+.mde-preview table th,
+.mde-preview table td {
+  padding: 6px 13px;
+  border: 1px solid rgba(213, 216, 218, 0.3);
+}
+.mde-preview table tr {
   background-color: transparent;
   border-top: 1px solid rgba(213, 216, 218, 0.25);
 }
-body[class*="dark-ui"] .mde-preview table tr:nth-child(2n) {
-  background-color: rgba(213, 216, 218, 0.05);
+.mde-preview table tr:nth-child(2n) {
+  background-color: rgba(213, 216, 218, 0.04);
 }
-body[class*="dark-ui"] .mde-preview img {
-  background-color: transparent;
-}
-body[class*="dark-ui"] .mde-preview code {
+.mde-preview code {
   padding: 0;
   padding-top: 0.2em;
   padding-bottom: 0.2em;
   margin: 0;
   font-size: 85%;
   background-color: rgba(22, 22, 28, 0.7);
-  border-radius: 3px;
+  border-radius: 6px;
 }
-body[class*="dark-ui"] .mde-preview code:before,
-body[class*="dark-ui"] .mde-preview code:after {
+.mde-preview code:before,
+.mde-preview code:after {
   letter-spacing: -0.2em;
   content: "\00a0";
 }
-body[class*="dark-ui"] .mde-preview pre > code {
+.mde-preview pre > code {
   padding: 0;
   margin: 0;
   font-size: 100%;
@@ -94,16 +107,16 @@ body[class*="dark-ui"] .mde-preview pre > code {
   background: transparent;
   border: 0;
 }
-body[class*="dark-ui"] .mde-preview pre {
+.mde-preview pre {
   padding: 16px;
   overflow: auto;
   word-wrap: normal;
   font-size: 85%;
   line-height: 1.45;
   background-color: rgba(22, 22, 28, 0.7);
-  border-radius: 3px;
+  border-radius: 6px;
 }
-body[class*="dark-ui"] .mde-preview pre code {
+.mde-preview pre code {
   display: inline;
   max-width: initial;
   padding: 0;
@@ -114,100 +127,100 @@ body[class*="dark-ui"] .mde-preview pre code {
   background-color: transparent;
   border: 0;
 }
-body[class*="dark-ui"] .mde-preview pre code:before,
-body[class*="dark-ui"] .mde-preview pre code:after {
+.mde-preview pre code:before,
+.mde-preview pre code:after {
   content: normal;
 }
-body[class*="dark-ui"] .mde-preview .cm-header {
-  color: #E95678;
+.mde-preview .cm-header {
+  color: #e95678;
 }
-body[class*="dark-ui"] .mde-preview .cm-quote {
-  color: #FAB795;
+.mde-preview .cm-quote {
+  color: #fab795;
   font-style: italic;
 }
-body[class*="dark-ui"] .mde-preview .cm-negative {
-  color: #F43E5C;
+.mde-preview .cm-negative {
+  color: #f43e5c;
 }
-body[class*="dark-ui"] .mde-preview .cm-positive {
-  color: #09F7A0;
+.mde-preview .cm-positive {
+  color: #09f7a0;
 }
-body[class*="dark-ui"] .mde-preview .cm-header,
-body[class*="dark-ui"] .mde-preview .cm-strong {
+.mde-preview .cm-header,
+.mde-preview .cm-strong {
   font-weight: bold;
 }
-body[class*="dark-ui"] .mde-preview .cm-em {
+.mde-preview .cm-em {
   font-style: italic;
 }
-body[class*="dark-ui"] .mde-preview .cm-link {
+.mde-preview .cm-link {
   text-decoration: underline;
 }
-body[class*="dark-ui"] .mde-preview .cm-strikethrough {
+.mde-preview .cm-strikethrough {
   text-decoration: line-through;
 }
-body[class*="dark-ui"] .mde-preview .cm-keyword {
-  color: #B877DB;
+.mde-preview .cm-keyword {
+  color: #b877db;
   font-weight: normal;
 }
-body[class*="dark-ui"] .mde-preview .cm-atom {
-  color: #F09383;
+.mde-preview .cm-atom {
+  color: #f09383;
 }
-body[class*="dark-ui"] .mde-preview .cm-number {
-  color: #F09383;
+.mde-preview .cm-number {
+  color: #f09383;
 }
-body[class*="dark-ui"] .mde-preview .cm-def {
-  color: #25B2BC;
+.mde-preview .cm-def {
+  color: #25b2bc;
 }
-body[class*="dark-ui"] .mde-preview .cm-property {
-  color: #D5D8DA;
+.mde-preview .cm-property {
+  color: #d5d8da;
 }
-body[class*="dark-ui"] .mde-preview .cm-operator {
-  color: #BBBBBB;
+.mde-preview .cm-operator {
+  color: #bbbbbb;
 }
-body[class*="dark-ui"] .mde-preview .cm-variable,
-body[class*="dark-ui"] .mde-preview .cm-punctuation {
-  color: #D5D8DA;
+.mde-preview .cm-variable,
+.mde-preview .cm-punctuation {
+  color: #d5d8da;
 }
-body[class*="dark-ui"] .mde-preview .cm-variable-2 {
-  color: #E95678;
+.mde-preview .cm-variable-2 {
+  color: #e95678;
 }
-body[class*="dark-ui"] .mde-preview .cm-variable-3,
-body[class*="dark-ui"] .mde-preview .cm-type {
+.mde-preview .cm-variable-3,
+.mde-preview .cm-type {
   color: rgba(255, 255, 255, 0.8);
 }
-body[class*="dark-ui"] .mde-preview .cm-comment {
+.mde-preview .cm-comment {
   color: rgba(187, 187, 187, 0.3);
   font-style: italic;
 }
-body[class*="dark-ui"] .mde-preview .cm-string {
-  color: #FAC29A;
+.mde-preview .cm-string {
+  color: #fac29a;
 }
-body[class*="dark-ui"] .mde-preview .cm-string-2 {
-  color: #FAC29A;
+.mde-preview .cm-string-2 {
+  color: #fac29a;
 }
-body[class*="dark-ui"] .mde-preview .cm-meta {
-  color: #25B2BC;
+.mde-preview .cm-meta {
+  color: #25b2bc;
 }
-body[class*="dark-ui"] .mde-preview .cm-qualifier {
-  color: #FAB795;
+.mde-preview .cm-qualifier {
+  color: #fab795;
 }
-body[class*="dark-ui"] .mde-preview .cm-builtin {
-  color: #D5D8DA;
+.mde-preview .cm-builtin {
+  color: #d5d8da;
 }
-body[class*="dark-ui"] .mde-preview .cm-bracket {
+.mde-preview .cm-bracket {
   color: #f99157;
 }
-body[class*="dark-ui"] .mde-preview .cm-tag {
-  color: #E95678;
+.mde-preview .cm-tag {
+  color: #e95678;
 }
-body[class*="dark-ui"] .mde-preview .cm-attribute {
-  color: #F09383;
+.mde-preview .cm-attribute {
+  color: #f09383;
 }
-body[class*="dark-ui"] .mde-preview .cm-hr {
-  color: #999;
+.mde-preview .cm-hr {
+  color: #999999;
 }
-body[class*="dark-ui"] .mde-preview .cm-link {
-  color: #F09383;
+.mde-preview .cm-link {
+  color: #f09383;
 }
-body[class*="dark-ui"] .mde-preview .cm-error {
-  color: #F43E5C;
+.mde-preview .cm-error {
+  color: #f43e5c;
 }
